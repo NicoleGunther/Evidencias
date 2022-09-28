@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #F7F7F7;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    background-color: #FFFF;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    min-height: 70px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #E8E8E8
+}
+.logo img{
+    height: 70px;
+    margin-right: 900px;
+
+}
+
+header #container{ 
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+header a{
+    padding: 5px 10px;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    margin: 15px;
+}
+
+header li:hover{
+	color: #128084;
+}
+
+header li:hover > a{
+	color: #128084;
+}
+
+aside{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 70px;
+    float: left;
+    margin: 0;
+}
+
+
+#recently h3{
+	font-size: 18px;
+    margin: 15px 0;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 10px;
+}
+
+#recently button{
+    background-color: rgba(8, 117, 117, 0.822);
+    font-size: 16px;
+    margin: 2px 0;
+}
+
+#recently button:hover{
+    background-color: rgba(8, 117, 117, 0.822);
+    color: white;
+}
+
+#recently{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	padding: 10px;
+	height: 100vh;
+	width: 30%;
+	/* background-color: #fff; */
+}
+
+#recently .sities{
+	background-color: #FFFFFF;
+	margin: 15px 10px;
+	padding: 8px;
+	align-items: space-between;
+	border-radius: 5px;
+	box-shadow: 5px 3px 10px 0 #E8E8E8;
+	width: 264px;
+	height: 113px;
+
+
+}
+#recently .container-sities{
+	display: flex;
+	flex-direction: column;
+}
+
+.chart{
+    background: #FFFFFF;
+    position: absolute;
+    width: 1555px;
+    height: 500px;
+    left: 325px;
+    top: 99px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px 0 #E8E8E8;
+
+}
+
+.chart h2{
+    font-size: 1.2em;
+    padding: 10px 10px;
+}
+
+#contentchart img{
+    text-align: center;
+    padding: 40px 200px;
+
+
+}
+
+.tableinfo{
+    background: #FFFFFF;
+    position: absolute;
+    width: 1555px;
+    height: 425px;
+    left: 325px;
+    top: 623px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px 0 #E8E8E8;
+}
+
+.tableinfo h2{
+    font-size: 1.2em;
+    padding: 10px 10px;
+}
